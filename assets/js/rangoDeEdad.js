@@ -1,5 +1,4 @@
 let edadUsuario = prompt("Ingrese su edad ");
-console.log(edadUsuario);
 
 if (edadUsuario >= 0 && edadUsuario<= 12){
     console.log("Usted es un niño con la edad de: " + edadUsuario);
