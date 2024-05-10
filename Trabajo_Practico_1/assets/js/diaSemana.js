@@ -31,6 +31,6 @@ switch (dias){
         break;    
 }
 
-if (dias > 7){
+if (dias > 7 || dias <= 0){
     console.log("Ingrese un día de la semana");
 }
